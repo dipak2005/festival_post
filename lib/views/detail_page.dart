@@ -14,10 +14,10 @@ import 'home_page.dart';
 class Detail_page extends StatefulWidget {
   Map? data;
   Map? map = {};
-  String? img;
 
-  Detail_page({Key? key, this.data, this.img, required this.map})
-      : super(key: key);
+  // String? img;
+
+  Detail_page({Key? key, this.data, required this.map}) : super(key: key);
 
   @override
   State<Detail_page> createState() => _Detail_pageState();

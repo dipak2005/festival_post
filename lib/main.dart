@@ -27,7 +27,7 @@ class _MyappState extends State<Myapp> {
       theme: isdark
           ? ThemeData.light(useMaterial3: true)
           : ThemeData.dark(useMaterial3: true),
-      darkTheme: ThemeData.dark(),
+      // darkTheme: ThemeData.dark(),
       initialRoute: "/",
       routes: {
         "/": (context) => Splash_screen(),

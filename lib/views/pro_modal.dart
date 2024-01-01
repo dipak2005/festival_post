@@ -25,6 +25,7 @@ class promodal {
   factory promodal.fromMap(Map<String, dynamic> map) {
     return promodal(
       img: map["image"],
+
     );
   }
 }
